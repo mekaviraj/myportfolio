@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meka Viraj - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #EEEEEE;
+            color: #201E43;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #134B70;
+            color: #EEEEEE;
+            border-radius: 10px;
+        }
+
+        header img {
+            width: 150px;
+            border-radius: 75px;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin: 10px 0;
+        }
+
+        h2 {
+            color: #508C9B;
+            border-bottom: 2px solid #508C9B;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #508C9B;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            background-color: #134B70;
+            color: #EEEEEE;
+            margin: 20px 0;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .edu-item, .exp-item {
+            margin-bottom: 15px;
+        }
+
+        .edu-item h3, .exp-item h3 {
+            color: #EEEEEE;
+            margin: 5px 0;
+            font-size: 1.2em;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        p, li {
+            line-height: 1.4;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://media.licdn.com/dms/image/D4D35AQG0gD6PO_fE3w/profile-framedphoto-shrink_800_800/0/1683023072672?e=1702053600&v=beta&t=Tx-K2B2bVPdURme_R26e6t9B3eiOICahm-aquv-lISg" alt="Meka Viraj">
+            <h1>Meka Viraj</h1>
+            <p>Bachelor of Engineering in Information Technology, CBIT (2023 - 2027)</p>
+            <p>Sri Chaitanya Techno School (2017 - 2023)</p>
+            <p>Hyderabad, Telangana, India</p>
+            <p>Phone: +91 7095926850</p>
+            <p>Email: <a href="mailto:mekaviraj1749@gmail.com">mekaviraj1749@gmail.com</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/viraj.m22" target="_blank">viraj.m22</a></p>
+        </header>
+        <section class="education">
+            <h2>Education</h2>
+            <div class="edu-item">
+                <h3>Bachelor of Engineering in Information Technology</h3>
+                <p><strong>College:</strong> CBIT (2023 - 2027)</p>
+                <p><strong>School:</strong> Sri Chaitanya Techno School (2017 - 2023)</p>
+            </div>
+        </section>
+        <section class="experience">
+            <h2>Experiences</h2>
+            <div class="exp-item">
+                <h3>Video Editor</h3>
+                <p><strong>Company:</strong> The Boring Company</p>
+                <p><strong>Duration:</strong> January 2023 - March 2023</p>
+            </div>
+            <div class="exp-item">
+                <h3>Logistics Intern</h3>
+                <p><strong>Company:</strong> Srujana</p>
+                <p><strong>Duration:</strong> June 2024 - Present</p>
+            </div>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Certificates</h2>
+            <ul>
+                <li>Basics of Python, Infosys Springboard</li>
+                <li>Email Writing, Infosys Springboard</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
