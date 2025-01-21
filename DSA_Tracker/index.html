@@ -1,1 +1,178 @@
-//hi
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSA Problem Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>DSA Problem Tracker</h1>
+
+    <div class="sections-container">
+        <div id="random-question-box">
+            Get Random Question
+        </div>
+        <div id="random-question-display">
+        </div>
+    </div>
+    
+
+    <div class="accordion">
+        <button class="accordion-btn">Arrays</button>
+        <div class="panel">
+            <ul>
+                <li><input type="checkbox" id="q1"> <label for="q1">Find the largest element in an array</label></li>
+                <li><input type="checkbox" id="q2"> <label for="q2">Find the missing number</label></li>
+                <li><input type="checkbox" id="q3"> <label for="q3">Sort an array of 0s, 1s, and 2s</label></li>
+                <li><input type="checkbox" id="q4"> <label for="q4">Maximum subarray sum</label></li>
+                <li><input type="checkbox" id="q5"> <label for="q5">Merge two sorted arrays</label></li>
+                <li><input type="checkbox" id="q6"> <label for="q6">Find duplicate in an array</label></li>
+                <li><input type="checkbox" id="q7"> <label for="q7">Kadane's Algorithm</label></li>
+                <li><input type="checkbox" id="q8"> <label for="q8">Rotate an array</label></li>
+                <li><input type="checkbox" id="q9"> <label for="q9">Find majority element</label></li>
+                <li><input type="checkbox" id="q10"> <label for="q10">Find intersection of two arrays</label></li>
+            </ul>
+        </div>
+
+        <button class="accordion-btn">Linked Lists</button>
+        <div class="panel">
+            <ul>
+                <li><input type="checkbox" id="q11"> <label for="q11">Reverse a linked list</label></li>
+                <li><input type="checkbox" id="q12"> <label for="q12">Detect a loop in a linked list</label></li>
+                <li><input type="checkbox" id="q13"> <label for="q13">Merge two sorted linked lists</label></li>
+                <li><input type="checkbox" id="q14"> <label for="q14">Find middle of a linked list</label></li>
+                <li><input type="checkbox" id="q15"> <label for="q15">Remove duplicates from linked list</label></li>
+                <li><input type="checkbox" id="q16"> <label for="q16">Check if palindrome</label></li>
+                <li><input type="checkbox" id="q17"> <label for="q17">Intersection point of two linked lists</label></li>
+                <li><input type="checkbox" id="q18"> <label for="q18">Flatten a linked list</label></li>
+                <li><input type="checkbox" id="q19"> <label for="q19">Rotate a linked list</label></li>
+                <li><input type="checkbox" id="q20"> <label for="q20">Add two numbers represented by linked lists</label></li>
+            </ul>
+        </div>
+
+        <button class="accordion-btn">DSA Interview Questions on Array</button>
+<div class="panel">
+    <ul>
+        <li><input type="checkbox" id="q1"> <label for="q1">Check if pair with the given Sum exists in Array</label></li>
+        <li><input type="checkbox" id="q2"> <label for="q2">Best Time to Buy and Sell Stock</label></li>
+        <li><input type="checkbox" id="q3"> <label for="q3">Find duplicates</label></li>
+        <li><input type="checkbox" id="q4"> <label for="q4">Product of Array Except Self</label></li>
+        <li><input type="checkbox" id="q5"> <label for="q5">Maximum Subarray</label></li>
+        <li><input type="checkbox" id="q6"> <label for="q6">Maximum Product Subarray</label></li>
+        <li><input type="checkbox" id="q7"> <label for="q7">Find Minimum in Rotated Sorted Array</label></li>
+    </ul>
+</div>
+
+<button class="accordion-btn">DSA Interview Questions on Matrix</button>
+<div class="panel">
+    <ul>
+        <li><input type="checkbox" id="q8"> <label for="q8">Set Matrix Zeroes</label></li>
+        <li><input type="checkbox" id="q9"> <label for="q9">Spiral Matrix</label></li>
+        <li><input type="checkbox" id="q10"> <label for="q10">Program to find the transpose of a matrix</label></li>
+        <li><input type="checkbox" id="q11"> <label for="q11">Word Search</label></li>
+        <li><input type="checkbox" id="q12"> <label for="q12">Find Factorial of a Large Number</label></li>
+        <li><input type="checkbox" id="q13"> <label for="q13">Chocolate Distribution Problem</label></li>
+        <li><input type="checkbox" id="q14"> <label for="q14">Trapping Rain Water</label></li>
+    </ul>
+</div>
+
+<button class="accordion-btn">DSA Interview Questions on String</button>
+<div class="panel">
+    <ul>
+        <li><input type="checkbox" id="q15"> <label for="q15">Longest Substring Without Repeating Characters</label></li>
+        <li><input type="checkbox" id="q16"> <label for="q16">Longest Repeating Character Replacement</label></li>
+        <li><input type="checkbox" id="q17"> <label for="q17">Smallest window in a String containing all characters of another String</label></li>
+        <li><input type="checkbox" id="q18"> <label for="q18">Check whether two Strings are anagram of each other</label></li>
+        <li><input type="checkbox" id="q19"> <label for="q19">Print all anagrams together</label></li>
+        <li><input type="checkbox" id="q20"> <label for="q20">Check if given Parentheses expression is balanced or not</label></li>
+        <li><input type="checkbox" id="q21"> <label for="q21">Sentence Palindrome</label></li>
+    </ul>
+</div>
+
+<button class="accordion-btn">DSA Interview Questions on Linked List</button>
+<div class="panel">
+    <ul>
+        <li><input type="checkbox" id="q22"> <label for="q22">Reverse a Linked List</label></li>
+        <li><input type="checkbox" id="q23"> <label for="q23">Detect Cycle in a Linked List</label></li>
+        <li><input type="checkbox" id="q24"> <label for="q24">Merge Two Sorted Lists</label></li>
+        <li><input type="checkbox" id="q25"> <label for="q25">Merge K Sorted Lists</label></li>
+        <li><input type="checkbox" id="q26"> <label for="q26">Remove Nth Node From End Of List</label></li>
+        <li><input type="checkbox" id="q27"> <label for="q27">Reorder List</label></li>
+        <li><input type="checkbox" id="q28"> <label for="q28">Add 1 to a number represented as linked list</label></li>
+    </ul>
+</div>
+
+<button class="accordion-btn">DSA Interview Questions on Stack & Queue</button>
+<div class="panel">
+    <ul>
+        <li><input type="checkbox" id="q29"> <label for="q29">Convert Infix expression to Postfix expression</label></li>
+        <li><input type="checkbox" id="q30"> <label for="q30">Next Greater Element</label></li>
+        <li><input type="checkbox" id="q31"> <label for="q31">Delete middle element of a stack</label></li>
+        <li><input type="checkbox" id="q32"> <label for="q32">Check mirror in n-ary tree</label></li>
+        <li><input type="checkbox" id="q33"> <label for="q33">The Celebrity Problem</label></li>
+        <li><input type="checkbox" id="q34"> <label for="q34">Length of the longest valid substring</label></li>
+        <li><input type="checkbox" id="q35"> <label for="q35">Print Right View of a Binary Tree</label></li>
+    </ul>
+</div>
+
+<button class="accordion-btn">DSA Interview Questions on Tree</button>
+<div class="panel">
+    <ul>
+        <li><input type="checkbox" id="q36"> <label for="q36">Maximum Depth of Binary Tree</label></li>
+        <li><input type="checkbox" id="q37"> <label for="q37">Check if two trees have the same structure</label></li>
+        <li><input type="checkbox" id="q38"> <label for="q38">Invert/Flip Binary Tree</label></li>
+        <li><input type="checkbox" id="q39"> <label for="q39">Binary Tree Maximum Path Sum</label></li>
+        <li><input type="checkbox" id="q40"> <label for="q40">Binary Tree Level Order Traversal</label></li>
+        <li><input type="checkbox" id="q41"> <label for="q41">Serialize and Deserialize Binary Tree</label></li>
+        <li><input type="checkbox" id="q42"> <label for="q42">Subtree of Another Tree</label></li>
+    </ul>
+</div>
+
+<button class="accordion-btn">DSA Interview Questions on Heap</button>
+<div class="panel">
+    <ul>
+        <li><input type="checkbox" id="q43"> <label for="q43">Top K Frequent Elements</label></li>
+        <li><input type="checkbox" id="q44"> <label for="q44">Find Median from Data Stream</label></li>
+        <li><input type="checkbox" id="q45"> <label for="q45">Largest Triplet Product in a Stream</label></li>
+        <li><input type="checkbox" id="q46"> <label for="q46">Connect N Ropes with Minimum Cost</label></li>
+        <li><input type="checkbox" id="q47"> <label for="q47">Minimum Cost to Connect Sticks</label></li>
+        <li><input type="checkbox" id="q48"> <label for="q48">Kth Largest Element in a Stream</label></li>
+        <li><input type="checkbox" id="q49"> <label for="q49">Merge K Sorted Lists</label></li>
+    </ul>
+</div>
+
+<button class="accordion-btn">DSA Interview Questions on Graph</button>
+<div class="panel">
+    <ul>
+        <li><input type="checkbox" id="q50"> <label for="q50">Clone Graph</label></li>
+        <li><input type="checkbox" id="q51"> <label for="q51">Course Schedule</label></li>
+        <li><input type="checkbox" id="q52"> <label for="q52">Pacific Atlantic Water Flow</label></li>
+        <li><input type="checkbox" id="q53"> <label for="q53">Number of Islands</label></li>
+        <li><input type="checkbox" id="q54"> <label for="q54">Snake and Ladder Problem</label></li>
+        <li><input type="checkbox" id="q55"> <label for="q55">Detect Cycle in a Directed Graph</label></li>
+        <li><input type="checkbox" id="q56"> <label for="q56">Bridges in a Graph</label></li>
+    </ul>
+</div>
+
+<button class="accordion-btn">DSA Interview Questions on Dynamic Programming</button>
+<div class="panel">
+    <ul>
+        <li><input type="checkbox" id="q57"> <label for="q57">Count ways to reach the n’th stair</label></li>
+        <li><input type="checkbox" id="q58"> <label for="q58">Coin Change Problem</label></li>
+        <li><input type="checkbox" id="q59"> <label for="q59">0/1 Knapsack Problem</label></li>
+        <li><input type="checkbox" id="q60"> <label for="q60">Longest Increasing Subsequence</label></li>
+        <li><input type="checkbox" id="q61"> <label for="q61">Longest Common Subsequence</label></li>
+        <li><input type="checkbox" id="q62"> <label for="q62">Word Break Problem</label></li>
+        <li><input type="checkbox" id="q63"> <label for="q63">Dice Throw Problem</label></li>
+    </ul>
+</div>
+
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
